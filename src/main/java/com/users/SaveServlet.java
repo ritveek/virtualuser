@@ -7,18 +7,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.io.Serial;
 
 
-/**
-     * Servlet implementation class
-     */
+
+
     @WebServlet("/save")
     public class SaveServlet extends HttpServlet {
 
         public SaveServlet() {
             super();
-            // TODO Auto-generated constructor stub
+
         }
 
 
